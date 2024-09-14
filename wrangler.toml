@@ -1,0 +1,13 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "calorie-app"
+main = "src/index.ts"
+compatibility_date = "2024-09-09"
+
+[[d1_databases]]
+binding = "DATABASE"
+database_name = "calorie-app-db"
+database_id = "1fc091b4-df86-4776-a46a-b3abb57275cd"
+
+[[r2_buckets]]
+binding = 'STORAGE'
+bucket_name = 'calorie-app-storage'
